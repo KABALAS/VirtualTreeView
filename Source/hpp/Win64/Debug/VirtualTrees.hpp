@@ -2,7 +2,7 @@
 // Copyright (c) 1995, 2016 by Embarcadero Technologies, Inc.
 // All rights reserved
 
-// (DO NOT EDIT: machine generated header) 'VirtualTrees.pas' rev: 31.00 (Windows)
+// (DO NOT EDIT: machine generated header) 'VirtualTrees.pas' rev: 32.00 (Windows)
 
 #ifndef VirtualtreesHPP
 #define VirtualtreesHPP
@@ -3411,7 +3411,7 @@ public:
 
 
 //-- var, const, procedure ---------------------------------------------------
-#define VTVersion L"6.4.1"
+#define VTVersion L"6.5.0"
 static const System::Int8 VTTreeStreamVersion = System::Int8(0x2);
 static const System::Int8 VTHeaderStreamVersion = System::Int8(0x6);
 static const System::Word CacheThreshold = System::Word(0x7d0);

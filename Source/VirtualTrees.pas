@@ -11306,7 +11306,6 @@ procedure TVTHeader.AutoFitColumns(Animated: Boolean = True; SmartAutoFitType: T
   function GetUseSmartColumnWidth(ColumnIndex: TColumnIndex): Boolean;
 
   begin
-    Result := False;
     case SmartAutoFitType of
       smaAllColumns:
         Result := True;
