@@ -15,6 +15,7 @@
 #include <System.hpp>
 #include <SysInit.hpp>
 #include <Winapi.Windows.hpp>
+#include <Winapi.ActiveX.hpp>
 #include <System.Types.hpp>
 #include <Vcl.Graphics.hpp>
 #include <Vcl.ImgList.hpp>
@@ -30,6 +31,7 @@ namespace Utils
 enum DECLSPEC_DENUM TBlendMode : unsigned char { bmConstantAlpha, bmPerPixelAlpha, bmMasterAlpha, bmConstantAlphaAndColor };
 
 //-- var, const, procedure ---------------------------------------------------
+extern DELPHI_PACKAGE void __fastcall ApplyDragImage(const _di_IDataObject pDataObject, Vcl::Graphics::TBitmap* pBitmap);
 extern DELPHI_PACKAGE System::Types::TRect __fastcall OrderRect(const System::Types::TRect &R);
 extern DELPHI_PACKAGE void __fastcall SetBrushOrigin(Vcl::Graphics::TCanvas* Canvas, int X, int Y);
 extern DELPHI_PACKAGE void __fastcall SetCanvasOrigin(Vcl::Graphics::TCanvas* Canvas, int X, int Y);
